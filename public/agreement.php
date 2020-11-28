@@ -5,8 +5,10 @@
             <div class = "row">
                 <div class = "card mt-3 px2 py-2">
 
-                <?php $decision = $_GET [$decision];
-                echo "Welcome you have selected". $decision  ."for the agreement";?>
+                <?php
+                session_start();
+                $decision = $_GET ["option"];
+                echo "Welcome you have selected ". $decision  ." for the agreement";?>
 
                 </div>
             </div>
