@@ -8,6 +8,8 @@
                     <p>Welcome to this functional stationary application page created for COMP2001 example.
                         To continue please accept our terms and conditions</p>
 
+                        <a href="http://localhost/COMP2001-Unit4/public/registrationPanel.php"> Registration Page </a>
+
                     <form action="agreement.php" method="GET">
                         <div class="form-check">
                             <input type="radio" id="Agree" name="option" value="I Agree">
